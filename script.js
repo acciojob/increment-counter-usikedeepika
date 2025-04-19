@@ -1,9 +1,7 @@
-//your JS code here. If required.
-var counter=0;
-let myId=document.getElementById("pid");
+let counter = 0;
 
-function increment(){
-	counter+=1;
-	myId.innerText=counter;
-	alert(counter-1);
+function incrementCounter() {
+    alert(counter); // Display the current counter value
+    counter++; // Increment the counter
+    document.getElementById("counter").innerText = counter; // Update the counter on the page
 }
